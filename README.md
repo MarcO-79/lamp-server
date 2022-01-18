@@ -15,4 +15,5 @@ docker-compose down
 
 # Run server
 ip_address:8080 -> Web pages
+
 ip_address:8090 -> phpMyAdmin pages

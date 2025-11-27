@@ -10,7 +10,7 @@ services:
     ports:
       - "8080:80"
   mysql-server:
-    image: mysql:8.0.19
+    image: mysql:8.0.44
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: secret
@@ -18,7 +18,7 @@ services:
       - mysql-data:/var/lib/mysql
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin:5.0.1
+    image: phpmyadmin/phpmyadmin:5.2.3
     restart: always
     environment:
       PMA_HOST: mysql-server

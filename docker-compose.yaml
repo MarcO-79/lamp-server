@@ -31,6 +31,6 @@ services:
       PMA_USER: root
       PMA_PASSWORD: secret
     ports:
-      - "8090:80"
+      - "8081:80"
 volumes:
   mysql-data:

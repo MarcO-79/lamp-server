@@ -1,5 +1,5 @@
 # lamp-server
-This is LAMP Server (PHP 8.2.29 + Apache 2.4 + MySQL 8.0.44 + phpMyAdmin 5.2.3)
+This is LAMP Server (PHP 8.4.15 + Apache 2.4 + MySQL 8.0.44 + phpMyAdmin 5.2.3)
 
 
 # Install
